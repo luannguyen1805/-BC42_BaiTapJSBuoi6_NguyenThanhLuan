@@ -85,7 +85,7 @@ function testPrime(n) {
 let result5 = document.getElementById("bai5");
 document.getElementById("btn5").onclick = function () {
     let n5 = +document.getElementById("numN5").value;
-    for (let i = 0; i < n5; i++) {
+    for (let i = 0; i <= n5; i++) {
         if (testPrime(i)) {
             result5.innerHTML += " " + i;
         }
